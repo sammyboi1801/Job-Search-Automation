@@ -144,7 +144,7 @@ scrapers:
     - handshake
     - google_jobs
 
-  rate_limit_seconds: 4         # slightly safer for LinkedIn
+  rate_limit_seconds: 10         # slightly safer for LinkedIn
   max_retries: 3
   headless: true
 
