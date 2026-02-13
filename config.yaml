@@ -1,0 +1,172 @@
+# ============================================================
+#  Job Search Automation – Configuration File
+#  DO NOT store secrets here. Use environment variables:
+#    EMAIL_USER, EMAIL_PASS, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+# ============================================================
+
+# ============================================================
+#  Job Search Automation – Configuration File
+#  DO NOT store secrets here. Use environment variables:
+#    EMAIL_USER, EMAIL_PASS, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+# ============================================================
+
+search:
+  keywords:
+    # =============================
+    # SOFTWARE ENGINEERING INTERN
+    # =============================
+    - "Software Engineering Intern"
+    - "Software Engineer Intern"
+    - "Software Developer Intern"
+    - "Software Development Intern"
+    - "SWE Intern"
+    - "Software Engineering Co-op"
+    - "Software Engineer Co-op"
+    - "Software Developer Co-op"
+    - "Full Stack Intern"
+    - "Backend Software Intern"
+    - "Frontend Software Intern"
+    - "Platform Engineering Intern"
+
+    # =============================
+    # MACHINE LEARNING / AI INTERN
+    # =============================
+    - "Machine Learning Intern"
+    - "Machine Learning Engineer Intern"
+    - "ML Engineer Intern"
+    - "ML Intern"
+    - "Machine Learning Co-op"
+    - "ML Engineer Co-op"
+    - "Applied Machine Learning Intern"
+    - "AI/ML Intern"
+    - "Deep Learning Intern"
+    - "Computer Vision Intern"
+    - "NLP Intern"
+    - "MLOps Intern"
+    - "Generative AI Intern"
+    - "LLM Intern"
+    - "AI Engineering Intern"
+    - "AI Engineer Intern"
+    - "Artificial Intelligence Intern"
+    - "AI Co-op"
+
+    # =============================
+    # BACKEND / SYSTEMS INTERN
+    # =============================
+    - "Backend Engineer Intern"
+    - "Backend Developer Intern"
+    - "Backend Engineer Co-op"
+    - "API Engineer Intern"
+    - "Distributed Systems Intern"
+    - "Infrastructure Intern"
+    - "Cloud Engineer Intern"
+
+    # =============================
+    # DATA SCIENCE INTERN
+    # =============================
+    - "Data Scientist Intern"
+    - "Data Science Intern"
+    - "Data Science Co-op"
+    - "Applied Data Science Intern"
+    - "Analytics Intern"
+    - "Data Analyst Intern"
+    - "Quantitative Analyst Intern"
+
+    # =============================
+    # BROAD CATCH-ALL FALLBACKS
+    # =============================
+    - "Software Intern"
+    - "Engineering Intern"
+    - "Technical Intern"
+    - "AI Intern"
+    - "ML Intern"
+    - "Computer Science Intern"
+
+  tags:
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Deep Learning"
+    - "LLM"
+    - "Generative AI"
+    - "Computer Vision"
+    - "NLP"
+    - "Python"
+    - "PyTorch"
+    - "TensorFlow"
+    - "Backend"
+    - "Distributed Systems"
+    - "Cloud"
+    - "AWS"
+    - "GCP"
+    - "Azure"
+    - "Data Science"
+    - "MLOps"
+
+  locations:
+    - "San Francisco, CA"
+    - "San Jose, CA"
+    - "Mountain View, CA"
+    - "Palo Alto, CA"
+    - "Oakland, CA"
+    - "Los Angeles, CA"
+    - "San Diego, CA"
+    - "Seattle, WA"
+    - "Redmond, WA"
+    - "New York, NY"
+    - "Boston, MA"
+    - "Austin, TX"
+    - "Dallas, TX"
+    - "Chicago, IL"
+    - "Denver, CO"
+    - "Raleigh, NC"
+    - "Durham, NC"
+    - "Charlotte, NC"
+    - "Washington, DC"
+    - "Philadelphia, PA"
+    - "Minneapolis, MN"
+    - "Atlanta, GA"
+    - "Miami, FL"
+    - "Boulder, CO"
+    - "Remote"
+
+  experience_level: "entry"     # entry = internship level
+  remote_filter: false          # true if you want remote only
+
+scheduler:
+  interval_hours: 3
+  send_empty_email: false
+
+scrapers:
+  enabled:
+    - indeed
+    - linkedin
+    - simplify
+    - handshake
+    - google_jobs
+
+  rate_limit_seconds: 4         # slightly safer for LinkedIn
+  max_retries: 3
+  headless: true
+
+email:
+  sender: ""                    # pulled from EMAIL_USER env var
+  recipients:
+    - "samselvaraj1801@gmail.com"
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 587
+
+telegram:
+  enabled: true                # set true + env vars to enable
+
+logging:
+  level: "INFO"
+  log_file: "logs/job_scraper.log"
+  max_bytes: 5242880
+  backup_count: 3
+
+storage:
+  db_path: "storage/jobs.db"
+
+export:
+  csv_enabled: true
+  csv_path: "exports/jobs_export.csv"

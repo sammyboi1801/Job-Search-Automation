@@ -1,0 +1,234 @@
+2026-02-13 03:13:36,883 INFO     storage.database – Database ready at storage/jobs.db
+2026-02-13 03:13:36,884 WARNING  notifier.email_notifier – EMAIL_PASS env var not set – emails will not send.
+2026-02-13 03:13:36,884 WARNING  notifier.telegram_notifier – Telegram enabled but TELEGRAM_TOKEN or TELEGRAM_CHAT_ID not set.
+2026-02-13 03:13:36,955 INFO     scheduler – Loaded scraper: indeed
+2026-02-13 03:13:36,956 INFO     scheduler – Loaded scraper: linkedin
+2026-02-13 03:13:36,956 INFO     scheduler – Loaded scraper: simplify
+2026-02-13 03:13:36,956 INFO     scheduler – Loaded scraper: handshake
+2026-02-13 03:13:36,956 INFO     scheduler – Loaded scraper: google_jobs
+2026-02-13 03:13:36,956 INFO     __main__ – Running once (--run-now)…
+2026-02-13 03:13:36,964 INFO     scheduler – ════════════════════════════════════════════════════════════
+2026-02-13 03:13:36,965 INFO     scheduler – Run #1 started at 2026-02-13T08:13:36.965063
+2026-02-13 03:13:36,967 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='San Francisco, CA'
+2026-02-13 03:13:36,967 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Francisco%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:40,873 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Francisco%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:40,873 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='San Jose, CA'
+2026-02-13 03:13:40,873 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Jose%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:44,889 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Jose%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:44,890 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Mountain View, CA'
+2026-02-13 03:13:44,890 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Mountain+View%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:48,626 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Mountain+View%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:48,627 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Palo Alto, CA'
+2026-02-13 03:13:48,627 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Palo+Alto%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:54,748 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Palo+Alto%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:54,748 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Oakland, CA'
+2026-02-13 03:13:54,748 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Oakland%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:59,920 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Oakland%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:13:59,920 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Los Angeles, CA'
+2026-02-13 03:13:59,920 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Los+Angeles%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:14:05,485 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Los+Angeles%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:14:05,486 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='San Diego, CA'
+2026-02-13 03:14:05,486 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Diego%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:14:10,437 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Diego%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:14:10,438 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Seattle, WA'
+2026-02-13 03:14:10,438 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Seattle%2C+WA&sort=date&explvl=entry_level
+2026-02-13 03:14:15,190 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Seattle%2C+WA&sort=date&explvl=entry_level
+2026-02-13 03:14:15,190 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Redmond, WA'
+2026-02-13 03:14:15,191 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Redmond%2C+WA&sort=date&explvl=entry_level
+2026-02-13 03:14:20,987 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Redmond%2C+WA&sort=date&explvl=entry_level
+2026-02-13 03:14:20,987 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='New York, NY'
+2026-02-13 03:14:20,988 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=New+York%2C+NY&sort=date&explvl=entry_level
+2026-02-13 03:14:26,784 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=New+York%2C+NY&sort=date&explvl=entry_level
+2026-02-13 03:14:26,785 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Boston, MA'
+2026-02-13 03:14:26,785 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Boston%2C+MA&sort=date&explvl=entry_level
+2026-02-13 03:14:31,443 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Boston%2C+MA&sort=date&explvl=entry_level
+2026-02-13 03:14:31,443 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Austin, TX'
+2026-02-13 03:14:31,444 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Austin%2C+TX&sort=date&explvl=entry_level
+2026-02-13 03:14:37,195 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Austin%2C+TX&sort=date&explvl=entry_level
+2026-02-13 03:14:37,196 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Dallas, TX'
+2026-02-13 03:14:37,196 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Dallas%2C+TX&sort=date&explvl=entry_level
+2026-02-13 03:14:43,211 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Dallas%2C+TX&sort=date&explvl=entry_level
+2026-02-13 03:14:43,211 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Chicago, IL'
+2026-02-13 03:14:43,211 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Chicago%2C+IL&sort=date&explvl=entry_level
+2026-02-13 03:14:48,704 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Chicago%2C+IL&sort=date&explvl=entry_level
+2026-02-13 03:14:48,705 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Denver, CO'
+2026-02-13 03:14:48,705 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Denver%2C+CO&sort=date&explvl=entry_level
+2026-02-13 03:14:52,461 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Denver%2C+CO&sort=date&explvl=entry_level
+2026-02-13 03:14:52,461 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Raleigh, NC'
+2026-02-13 03:14:52,462 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Raleigh%2C+NC&sort=date&explvl=entry_level
+2026-02-13 03:14:58,605 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Raleigh%2C+NC&sort=date&explvl=entry_level
+2026-02-13 03:14:58,606 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Durham, NC'
+2026-02-13 03:14:58,606 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Durham%2C+NC&sort=date&explvl=entry_level
+2026-02-13 03:15:03,012 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Durham%2C+NC&sort=date&explvl=entry_level
+2026-02-13 03:15:03,013 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Charlotte, NC'
+2026-02-13 03:15:03,013 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Charlotte%2C+NC&sort=date&explvl=entry_level
+2026-02-13 03:15:08,331 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Charlotte%2C+NC&sort=date&explvl=entry_level
+2026-02-13 03:15:08,331 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Washington, DC'
+2026-02-13 03:15:08,331 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Washington%2C+DC&sort=date&explvl=entry_level
+2026-02-13 03:15:13,083 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Washington%2C+DC&sort=date&explvl=entry_level
+2026-02-13 03:15:13,084 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Philadelphia, PA'
+2026-02-13 03:15:13,084 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Philadelphia%2C+PA&sort=date&explvl=entry_level
+2026-02-13 03:15:17,370 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Philadelphia%2C+PA&sort=date&explvl=entry_level
+2026-02-13 03:15:17,370 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Minneapolis, MN'
+2026-02-13 03:15:17,371 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Minneapolis%2C+MN&sort=date&explvl=entry_level
+2026-02-13 03:15:22,684 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Minneapolis%2C+MN&sort=date&explvl=entry_level
+2026-02-13 03:15:22,685 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Atlanta, GA'
+2026-02-13 03:15:22,685 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Atlanta%2C+GA&sort=date&explvl=entry_level
+2026-02-13 03:15:28,469 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Atlanta%2C+GA&sort=date&explvl=entry_level
+2026-02-13 03:15:28,470 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Miami, FL'
+2026-02-13 03:15:28,470 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Miami%2C+FL&sort=date&explvl=entry_level
+2026-02-13 03:15:34,768 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Miami%2C+FL&sort=date&explvl=entry_level
+2026-02-13 03:15:34,769 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Boulder, CO'
+2026-02-13 03:15:34,769 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Boulder%2C+CO&sort=date&explvl=entry_level
+2026-02-13 03:15:40,457 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Boulder%2C+CO&sort=date&explvl=entry_level
+2026-02-13 03:15:40,458 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Remote'
+2026-02-13 03:15:40,458 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Remote&sort=date&explvl=entry_level
+2026-02-13 03:15:45,813 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=Remote&sort=date&explvl=entry_level
+2026-02-13 03:15:45,814 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='San Francisco, CA'
+2026-02-13 03:15:45,814 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=San+Francisco%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:15:50,661 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=San+Francisco%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:15:50,662 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='San Jose, CA'
+2026-02-13 03:15:50,662 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=San+Jose%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:15:54,824 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=San+Jose%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:15:54,824 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='Mountain View, CA'
+2026-02-13 03:15:54,824 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Mountain+View%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:00,331 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Mountain+View%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:00,331 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='Palo Alto, CA'
+2026-02-13 03:16:00,331 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Palo+Alto%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:05,818 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Palo+Alto%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:05,818 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='Oakland, CA'
+2026-02-13 03:16:05,819 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Oakland%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:10,516 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Oakland%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:10,517 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='Los Angeles, CA'
+2026-02-13 03:16:10,517 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Los+Angeles%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:15,595 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Los+Angeles%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:15,596 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='San Diego, CA'
+2026-02-13 03:16:15,596 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=San+Diego%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:20,677 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=San+Diego%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:16:20,678 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='Seattle, WA'
+2026-02-13 03:16:20,678 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Seattle%2C+WA&sort=date&explvl=entry_level
+2026-02-13 03:16:24,657 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Seattle%2C+WA&sort=date&explvl=entry_level
+2026-02-13 03:16:24,658 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='Redmond, WA'
+2026-02-13 03:16:24,658 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Redmond%2C+WA&sort=date&explvl=entry_level
+2026-02-13 03:16:28,389 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=Redmond%2C+WA&sort=date&explvl=entry_level
+2026-02-13 03:16:28,390 INFO     scheduler – Scraping indeed | keyword='Platform Engineering Intern' | location='New York, NY'
+2026-02-13 03:16:28,390 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Platform+Engineering+Intern&l=New+York%2C+NY&sort=date&explvl=entry_level
+2026-02-13 03:18:05,243 INFO     storage.database – Database ready at storage/jobs.db
+2026-02-13 03:18:05,244 WARNING  notifier.email_notifier – EMAIL_PASS env var not set – emails will not send.
+2026-02-13 03:18:05,244 WARNING  notifier.telegram_notifier – Telegram enabled but TELEGRAM_TOKEN or TELEGRAM_CHAT_ID not set.
+2026-02-13 03:18:05,324 INFO     scheduler – Loaded scraper: indeed
+2026-02-13 03:18:05,324 INFO     scheduler – Loaded scraper: linkedin
+2026-02-13 03:18:05,325 INFO     scheduler – Loaded scraper: simplify
+2026-02-13 03:18:05,325 INFO     scheduler – Loaded scraper: handshake
+2026-02-13 03:18:05,325 INFO     scheduler – Loaded scraper: google_jobs
+2026-02-13 03:18:05,325 INFO     __main__ – Running once (--run-now)…
+2026-02-13 03:18:05,332 INFO     scheduler – ════════════════════════════════════════════════════════════
+2026-02-13 03:18:05,332 INFO     scheduler – Run #2 started at 2026-02-13T08:18:05.332802
+2026-02-13 03:18:05,336 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='San Francisco, CA'
+2026-02-13 03:18:05,337 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Francisco%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:18:09,365 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Francisco%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:18:09,366 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='San Jose, CA'
+2026-02-13 03:18:09,366 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Jose%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:18:13,427 WARNING  scrapers.indeed_scraper – Indeed HTTP 403 for https://www.indeed.com/jobs?q=Software+Development+Intern&l=San+Jose%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:18:13,427 INFO     scheduler – Scraping indeed | keyword='Software Development Intern' | location='Mountain View, CA'
+2026-02-13 03:18:13,428 INFO     scrapers.indeed_scraper – Indeed searching: https://www.indeed.com/jobs?q=Software+Development+Intern&l=Mountain+View%2C+CA&sort=date&explvl=entry_level
+2026-02-13 03:18:26,687 INFO     storage.database – Database ready at storage/jobs.db
+2026-02-13 03:18:26,688 WARNING  notifier.email_notifier – EMAIL_PASS env var not set – emails will not send.
+2026-02-13 03:18:26,688 WARNING  notifier.telegram_notifier – Telegram enabled but TELEGRAM_TOKEN or TELEGRAM_CHAT_ID not set.
+2026-02-13 03:18:26,688 INFO     scheduler – Loaded scraper: indeed
+2026-02-13 03:18:26,688 INFO     scheduler – Loaded scraper: linkedin
+2026-02-13 03:18:26,689 INFO     scheduler – Loaded scraper: simplify
+2026-02-13 03:18:26,689 INFO     scheduler – Loaded scraper: handshake
+2026-02-13 03:18:26,689 INFO     scheduler – Loaded scraper: google_jobs
+2026-02-13 03:18:26,689 INFO     __main__ – Running once (--run-now)…
+2026-02-13 03:18:26,696 INFO     scheduler – ════════════════════════════════════════════════════════════
+2026-02-13 03:18:26,696 INFO     scheduler – Run #3 started at 2026-02-13T08:18:26.696388
+2026-02-13 03:18:26,699 INFO     scheduler – Scraping indeed | keyword='Frontend Software Intern' | location='San Francisco, CA'
+2026-02-13 03:18:26,699 INFO     scrapers.indeed_scraper – Indeed RSS searching: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Francisco%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:18:29,730 WARNING  scrapers.base_scraper – indeed GET failed [https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Francisco%2C+CA&sort=date&limit=25&explvl=entry_level]: 404 Client Error: Not Found for url: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Francisco%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:18:29,730 WARNING  scrapers.indeed_scraper – Indeed RSS: no response
+2026-02-13 03:18:29,731 INFO     scrapers.indeed_scraper – Indeed RSS returned 0 – trying Playwright fallback
+2026-02-13 03:18:32,314 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Frontend+Software+Intern&l=San+Francisco%2C+CA&sort=date
+2026-02-13 03:18:42,560 INFO     scrapers.indeed_scraper – Indeed returned 6 jobs for 'Frontend Software Intern' / 'San Francisco, CA'
+2026-02-13 03:18:42,614 INFO     scheduler – Scraping indeed | keyword='Frontend Software Intern' | location='San Jose, CA'
+2026-02-13 03:18:42,615 INFO     scrapers.indeed_scraper – Indeed RSS searching: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Jose%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:18:46,196 WARNING  scrapers.base_scraper – indeed GET failed [https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Jose%2C+CA&sort=date&limit=25&explvl=entry_level]: 404 Client Error: Not Found for url: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Jose%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:18:46,196 WARNING  scrapers.indeed_scraper – Indeed RSS: no response
+2026-02-13 03:18:46,196 INFO     scrapers.indeed_scraper – Indeed RSS returned 0 – trying Playwright fallback
+2026-02-13 03:18:46,197 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Frontend+Software+Intern&l=San+Jose%2C+CA&sort=date
+2026-02-13 03:18:52,383 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Frontend Software Intern' / 'San Jose, CA'
+2026-02-13 03:18:52,384 INFO     scheduler – Scraping indeed | keyword='Frontend Software Intern' | location='Mountain View, CA'
+2026-02-13 03:18:52,384 INFO     scrapers.indeed_scraper – Indeed RSS searching: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Mountain+View%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:18:57,113 WARNING  scrapers.base_scraper – indeed GET failed [https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Mountain+View%2C+CA&sort=date&limit=25&explvl=entry_level]: 404 Client Error: Not Found for url: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Mountain+View%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:18:57,114 WARNING  scrapers.indeed_scraper – Indeed RSS: no response
+2026-02-13 03:18:57,114 INFO     scrapers.indeed_scraper – Indeed RSS returned 0 – trying Playwright fallback
+2026-02-13 03:18:57,114 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Frontend+Software+Intern&l=Mountain+View%2C+CA&sort=date
+2026-02-13 03:19:02,316 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Frontend Software Intern' / 'Mountain View, CA'
+2026-02-13 03:19:02,316 INFO     scheduler – Scraping indeed | keyword='Frontend Software Intern' | location='Palo Alto, CA'
+2026-02-13 03:19:02,317 INFO     scrapers.indeed_scraper – Indeed RSS searching: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Palo+Alto%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:19:15,323 WARNING  scrapers.base_scraper – indeed GET failed [https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Palo+Alto%2C+CA&sort=date&limit=25&explvl=entry_level]: HTTPSConnectionPool(host='www.indeed.com', port=443): Max retries exceeded with url: /rss?q=Frontend+Software+Intern&l=Palo+Alto%2C+CA&sort=date&limit=25&explvl=entry_level (Caused by ResponseError('too many 429 error responses'))
+2026-02-13 03:19:15,330 WARNING  scrapers.indeed_scraper – Indeed RSS: no response
+2026-02-13 03:19:15,330 INFO     scrapers.indeed_scraper – Indeed RSS returned 0 – trying Playwright fallback
+2026-02-13 03:19:15,330 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Frontend+Software+Intern&l=Palo+Alto%2C+CA&sort=date
+2026-02-13 03:19:20,709 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Frontend Software Intern' / 'Palo Alto, CA'
+2026-02-13 03:19:20,709 INFO     scheduler – Scraping indeed | keyword='Frontend Software Intern' | location='Oakland, CA'
+2026-02-13 03:19:20,709 INFO     scrapers.indeed_scraper – Indeed RSS searching: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Oakland%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:19:34,241 WARNING  scrapers.base_scraper – indeed GET failed [https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Oakland%2C+CA&sort=date&limit=25&explvl=entry_level]: HTTPSConnectionPool(host='www.indeed.com', port=443): Max retries exceeded with url: /rss?q=Frontend+Software+Intern&l=Oakland%2C+CA&sort=date&limit=25&explvl=entry_level (Caused by ResponseError('too many 429 error responses'))
+2026-02-13 03:19:34,246 WARNING  scrapers.indeed_scraper – Indeed RSS: no response
+2026-02-13 03:19:34,247 INFO     scrapers.indeed_scraper – Indeed RSS returned 0 – trying Playwright fallback
+2026-02-13 03:19:34,247 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Frontend+Software+Intern&l=Oakland%2C+CA&sort=date
+2026-02-13 03:19:39,746 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Frontend Software Intern' / 'Oakland, CA'
+2026-02-13 03:19:39,746 INFO     scheduler – Scraping indeed | keyword='Frontend Software Intern' | location='Los Angeles, CA'
+2026-02-13 03:19:39,746 INFO     scrapers.indeed_scraper – Indeed RSS searching: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Los+Angeles%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:19:56,686 WARNING  scrapers.base_scraper – indeed GET failed [https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Los+Angeles%2C+CA&sort=date&limit=25&explvl=entry_level]: HTTPSConnectionPool(host='www.indeed.com', port=443): Max retries exceeded with url: /rss?q=Frontend+Software+Intern&l=Los+Angeles%2C+CA&sort=date&limit=25&explvl=entry_level (Caused by ResponseError('too many 429 error responses'))
+2026-02-13 03:19:56,691 WARNING  scrapers.indeed_scraper – Indeed RSS: no response
+2026-02-13 03:19:56,692 INFO     scrapers.indeed_scraper – Indeed RSS returned 0 – trying Playwright fallback
+2026-02-13 03:19:56,692 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Frontend+Software+Intern&l=Los+Angeles%2C+CA&sort=date
+2026-02-13 03:20:02,359 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Frontend Software Intern' / 'Los Angeles, CA'
+2026-02-13 03:20:02,359 INFO     scheduler – Scraping indeed | keyword='Frontend Software Intern' | location='San Diego, CA'
+2026-02-13 03:20:02,360 INFO     scrapers.indeed_scraper – Indeed RSS searching: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Diego%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:20:05,601 WARNING  scrapers.base_scraper – indeed GET failed [https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Diego%2C+CA&sort=date&limit=25&explvl=entry_level]: 404 Client Error: Not Found for url: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=San+Diego%2C+CA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:20:05,601 WARNING  scrapers.indeed_scraper – Indeed RSS: no response
+2026-02-13 03:20:05,604 INFO     scrapers.indeed_scraper – Indeed RSS returned 0 – trying Playwright fallback
+2026-02-13 03:20:05,605 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Frontend+Software+Intern&l=San+Diego%2C+CA&sort=date
+2026-02-13 03:20:11,867 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Frontend Software Intern' / 'San Diego, CA'
+2026-02-13 03:20:11,868 INFO     scheduler – Scraping indeed | keyword='Frontend Software Intern' | location='Seattle, WA'
+2026-02-13 03:20:11,868 INFO     scrapers.indeed_scraper – Indeed RSS searching: https://www.indeed.com/rss?q=Frontend+Software+Intern&l=Seattle%2C+WA&sort=date&limit=25&explvl=entry_level
+2026-02-13 03:20:31,465 INFO     storage.database – Database ready at storage/jobs.db
+2026-02-13 03:20:31,466 WARNING  notifier.email_notifier – EMAIL_PASS env var not set – emails will not send.
+2026-02-13 03:20:31,466 WARNING  notifier.telegram_notifier – Telegram enabled but TELEGRAM_TOKEN or TELEGRAM_CHAT_ID not set.
+2026-02-13 03:20:31,466 INFO     scheduler – Loaded scraper: indeed
+2026-02-13 03:20:31,466 INFO     scheduler – Loaded scraper: linkedin
+2026-02-13 03:20:31,466 INFO     scheduler – Loaded scraper: simplify
+2026-02-13 03:20:31,467 INFO     scheduler – Loaded scraper: handshake
+2026-02-13 03:20:31,467 INFO     scheduler – Loaded scraper: google_jobs
+2026-02-13 03:20:31,467 INFO     __main__ – Running once (--run-now)…
+2026-02-13 03:20:31,473 INFO     scheduler – ════════════════════════════════════════════════════════════
+2026-02-13 03:20:31,473 INFO     scheduler – Run #4 started at 2026-02-13T08:20:31.473848
+2026-02-13 03:20:31,476 INFO     scheduler – Scraping indeed | keyword='Generative AI Intern' | location='San Francisco, CA'
+2026-02-13 03:20:32,397 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Generative+AI+Intern&l=San+Francisco%2C+CA&sort=date
+2026-02-13 03:20:38,593 INFO     scrapers.indeed_scraper – Indeed returned 18 jobs for 'Generative AI Intern' / 'San Francisco, CA'
+2026-02-13 03:20:38,747 INFO     scheduler – Scraping indeed | keyword='Generative AI Intern' | location='San Jose, CA'
+2026-02-13 03:20:38,747 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Generative+AI+Intern&l=San+Jose%2C+CA&sort=date
+2026-02-13 03:20:43,982 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Generative AI Intern' / 'San Jose, CA'
+2026-02-13 03:20:43,982 INFO     scheduler – Scraping indeed | keyword='Generative AI Intern' | location='Mountain View, CA'
+2026-02-13 03:20:43,982 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Generative+AI+Intern&l=Mountain+View%2C+CA&sort=date
+2026-02-13 03:20:49,286 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Generative AI Intern' / 'Mountain View, CA'
+2026-02-13 03:20:49,286 INFO     scheduler – Scraping indeed | keyword='Generative AI Intern' | location='Palo Alto, CA'
+2026-02-13 03:20:49,287 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Generative+AI+Intern&l=Palo+Alto%2C+CA&sort=date
+2026-02-13 03:20:54,292 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Generative AI Intern' / 'Palo Alto, CA'
+2026-02-13 03:20:54,292 INFO     scheduler – Scraping indeed | keyword='Generative AI Intern' | location='Oakland, CA'
+2026-02-13 03:20:54,293 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Generative+AI+Intern&l=Oakland%2C+CA&sort=date
+2026-02-13 03:21:01,206 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Generative AI Intern' / 'Oakland, CA'
+2026-02-13 03:21:01,206 INFO     scheduler – Scraping indeed | keyword='Generative AI Intern' | location='Los Angeles, CA'
+2026-02-13 03:21:01,206 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Generative+AI+Intern&l=Los+Angeles%2C+CA&sort=date
+2026-02-13 03:21:05,966 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Generative AI Intern' / 'Los Angeles, CA'
+2026-02-13 03:21:05,966 INFO     scheduler – Scraping indeed | keyword='Generative AI Intern' | location='San Diego, CA'
+2026-02-13 03:21:05,967 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Generative+AI+Intern&l=San+Diego%2C+CA&sort=date
+2026-02-13 03:21:12,277 INFO     scrapers.indeed_scraper – Indeed returned 0 jobs for 'Generative AI Intern' / 'San Diego, CA'
+2026-02-13 03:21:12,278 INFO     scheduler – Scraping indeed | keyword='Generative AI Intern' | location='Seattle, WA'
+2026-02-13 03:21:12,278 INFO     scrapers.indeed_scraper – Indeed Playwright searching: https://www.indeed.com/jobs?q=Generative+AI+Intern&l=Seattle%2C+WA&sort=date
+2026-02-13 03:21:51,868 WARNING  notifier.email_notifier – EMAIL_PASS env var not set – emails will not send.
+2026-02-13 03:21:51,869 ERROR    notifier.email_notifier – Email credentials missing – cannot send.
+2026-02-13 03:22:36,761 ERROR    notifier.email_notifier – SMTP auth failed. For Gmail, use an App Password: https://support.google.com/accounts/answer/185833
+2026-02-13 03:23:07,609 INFO     notifier.email_notifier – Email sent to ['samselvaraj1801@gmail.com'] — 1 jobs in digest
